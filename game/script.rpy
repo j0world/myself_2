@@ -4,6 +4,7 @@
 # name of the character.
 
 define e = Character("Eileen")
+image pink girl 7 = "pink_girl_7.png"
 
 
 # The game starts here.
@@ -20,8 +21,8 @@ label start:
     # replace it by adding a file named "eileen happy.png" to the images
     # directory.
 
-    show eileen happy
-
+    #show eileen happy
+    show pink girl 7 at Position(xpos=0.5, xanchor=0.5, ypos=0.5, yanchor=0.5)# counts from top left corner
     # These display lines of dialogue.
 
     e "You've created a new Ren'Py game."
