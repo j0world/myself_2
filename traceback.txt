@@ -1,32 +1,24 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 211, in script
-    show mc_placeholder at bouncing, Position(xpos=0.5, xanchor=0.5, ypos=0.5, yanchor=0.5)
-  File "game/script.rpy", line 211, in <module>
-    show mc_placeholder at bouncing, Position(xpos=0.5, xanchor=0.5, ypos=0.5, yanchor=0.5)
-NameError: name 'bouncing' is not defined
+  File "game/scenarios/scenario_2.rpy", line 33, in script
+    classmate_1 "Teacher, what topic will our group be working on?"
+Exception: Sayer 'classmate_1' is not defined.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 211, in script
-    show mc_placeholder at bouncing, Position(xpos=0.5, xanchor=0.5, ypos=0.5, yanchor=0.5)
-  File "/Users/joworld/Documents/renpy-8.3.7-sdk/renpy/ast.py", line 1124, in execute
-    show_imspec(self.imspec, atl=getattr(self, "atl", None))
-  File "/Users/joworld/Documents/renpy-8.3.7-sdk/renpy/ast.py", line 1083, in show_imspec
-    at_list = [ renpy.python.py_eval(i) for i in at_list ]
-  File "/Users/joworld/Documents/renpy-8.3.7-sdk/renpy/ast.py", line 1083, in <listcomp>
-    at_list = [ renpy.python.py_eval(i) for i in at_list ]
-  File "/Users/joworld/Documents/renpy-8.3.7-sdk/renpy/python.py", line 1218, in py_eval
-    return py_eval_bytecode(code, globals, locals)
-  File "/Users/joworld/Documents/renpy-8.3.7-sdk/renpy/python.py", line 1211, in py_eval_bytecode
-    return eval(bytecode, globals, locals)
-  File "game/script.rpy", line 211, in <module>
-    show mc_placeholder at bouncing, Position(xpos=0.5, xanchor=0.5, ypos=0.5, yanchor=0.5)
-NameError: name 'bouncing' is not defined
+  File "game/scenarios/scenario_2.rpy", line 33, in script
+    classmate_1 "Teacher, what topic will our group be working on?"
+  File "/Users/joworld/Documents/renpy-8.3.7-sdk/renpy/ast.py", line 2586, in execute
+    Say.execute(self)
+  File "/Users/joworld/Documents/renpy-8.3.7-sdk/renpy/ast.py", line 583, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "/Users/joworld/Documents/renpy-8.3.7-sdk/renpy/ast.py", line 472, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'classmate_1' is not defined.
 
 macOS-15.3.1-arm64-arm-64bit arm64
 Ren'Py 8.3.7.25031702
 myself_2 1.0
-Sat Mar 22 12:34:24 2025
+Sun Mar 23 10:06:09 2025
