@@ -299,7 +299,7 @@ label scenario_3:
 
             show alpha_base_expression at bounce
 
-            alpha "Heck yeah, so we go bowling twice? I will use you as a steppingstone on my way to overthrow [mc], the absolute bowling champion!"
+            alpha "Heck yeah, so we go bowling twice? I will use you as a stepping stone on my way to overthrow [mc], the absolute bowling champion!"
 
             show bravo_base_expression at bounce
 

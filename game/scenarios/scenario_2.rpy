@@ -35,7 +35,7 @@ label in_classroom:
 
     show teacher_base_expression at bounce, right
 
-    teacher "I think you’ll like it... Street Art."
+    teacher "I think you’ll like it... Street art."
 
     hide classmate_1
     hide teacher_base_expression
@@ -220,7 +220,7 @@ label late_for_school:
 
         teacher "I’ll report you to the principal."
 
-        "You are angry but what are you going do… You sit at your desk."
+        "You are angry but what are you going to do… You sit at your desk."
 
         jump in_classroom
     

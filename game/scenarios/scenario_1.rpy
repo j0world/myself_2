@@ -67,11 +67,11 @@ label scenario_1:
 
         show mc_base_expression at bounce, right
 
-        mc "But I really do not feel good, it stresses me out just to think about arriving there! And maybe… I also feel a bit sick..?"
+        mc "But I really do not feel good. It stresses me out just to think about arriving there! And maybe… I also feel a bit sick..?"
 
         show parent_1_base_expression at bounce, left
 
-        parent_1 "I get that, but school is non negotiable. It is so important for your future. When you come back home we can sit down and think about how we could change something. Would that help?"
+        parent_1 "I get that, but school is non-negotiable. It is so important for your future. When you come back home we can sit down and think about how we could change something. Would that help?"
 
         show mc_base_expression at bounce, right
 
@@ -87,7 +87,7 @@ label scenario_1:
 
         hide parent_1_base_expression
 
-        "… after a view minutes you decide to go and grudgingly go to tell your parent who is in the living room …"
+        "… after a few minutes you decide to go and grudgingly go to tell your parent who is in the living room …"
 
         scene living_room_front # change to living room
 

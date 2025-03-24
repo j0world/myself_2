@@ -3,8 +3,7 @@ label scenario_4:
     scene living_room_tv
 
     "You’re sitting comfortably on the couch, wrapped in a cozy blanket, watching your favorite TV show. The room is dimly lit, and the soft glow of the screen flickers across your face."
-    "You can hear your parents talking in another room, their voices blending with the low hum of the TV.
-    Just as the episode gets really exciting, you hear a voice from the hallway:"
+    "You can hear your parents talking in another room, their voices blending with the low hum of the TV. Just as the episode gets really exciting, you hear a voice from the hallway:"
 
     show parent_1_base_expression at bounce, left
 
@@ -16,7 +15,7 @@ label scenario_4:
 
     show parent_1_base_expression at bounce, left
 
-    parent_1 "No, you really need to go to bed now, otherwise you will not be able to to get up in the morning!"
+    parent_1 "No, you really need to go to bed now, otherwise you will not be able to get up in the morning!"
 
     # kind of unnatural IMO
     "You grip the remote, hesitating. You really want to see what happens next, but you also know that getting enough sleep is important."
@@ -62,7 +61,7 @@ label scenario_4:
 
             show mc_placeholder at bounce, right
 
-            mc "Alright… If i HAVE to then I will go to bed now…"
+            mc "Alright… If I HAVE to then I will go to bed now…"
 
             show parent_1_base_expression at bounce, left
 
