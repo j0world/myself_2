@@ -50,7 +50,7 @@ label scenario_1:
 
         mc "Okay, okay… I’ll go. But only because you convinced me. And… thanks for understanding."
 
-        scene living_room # change to living room
+        scene living_room_food # change to living room
 
         "You have had a quick breakfast and are going to school now, even though you still feel apprehensive about it."
 
@@ -89,7 +89,7 @@ label scenario_1:
 
         "… after a view minutes you decide to go and grudgingly go to tell your parent who is in the living room …"
 
-        scene living_room # change to living room
+        scene living_room_front # change to living room
 
         show mc_base_expression at bounce, right
 

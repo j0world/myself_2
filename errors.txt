@@ -2,11 +2,9 @@
 errors listed below, and try again.
 
 
-The label scenario_4.go_to_bed is defined twice, at File "game/scenarios/scenario_4.rpy", line 32:
-    label .go_to_bed:
-and File "game/scenarios/scenario_4.rpy", line 110:
-        label .go_to_bed:
-
+File "game/script.rpy", line 29: expected statement.
+    boolean = True
+            ^
 
 Ren'Py Version: Ren'Py 8.3.7.25031702
-Sun Mar 23 08:06:06 2025
+Sun Mar 23 11:44:39 2025

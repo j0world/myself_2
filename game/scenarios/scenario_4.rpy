@@ -1,6 +1,6 @@
 label scenario_4:
 
-    scene living_room
+    scene living_room_tv
 
     "You’re sitting comfortably on the couch, wrapped in a cozy blanket, watching your favorite TV show. The room is dimly lit, and the soft glow of the screen flickers across your face."
     "You can hear your parents talking in another room, their voices blending with the low hum of the TV.

@@ -9,7 +9,7 @@ label scenario_3:
     #show eileen happy
     # These display lines of dialogue.
 
-    "After a long day and with art class now over, the school day comes to an end. Your friends A and B come strolling over"
+    "After a long day and with art class now over, the school day comes to an end. Your friends A and B come strolling over."
 
     show alpha_base_expression at left
 
@@ -49,7 +49,7 @@ label scenario_3:
 
     show bravo_base_expression at bounce
 
-    bravo "You’re just saying that so it won’t be that embarrassing when you can’t even lift the balls"
+    bravo "You’re just saying that so it won’t be that embarrassing when you can’t even lift the balls."
 
     show alpha_base_expression at bounce
 
@@ -200,7 +200,7 @@ label scenario_3:
 
         show alpha_base_expression at bounce, left
 
-        alpha "No probs though, that just means that I win automatically! It will be a little lonely though"
+        alpha "No probs though, that just means that I win automatically! It will be a little lonely though."
 
         show bravo_base_expression at bounce
 
@@ -287,7 +287,7 @@ label scenario_3:
 
             bravo "Yeah, but [mc] did not mentally prepare themselves for this."
 
-            bravo "Hey [mc] if you want to go on another day, feel free to tell us and we’ll be sure to figure something out"
+            bravo "Hey [mc] if you want to go on another day, feel free to tell us and we’ll be sure to figure something out."
 
             show alpha_base_expression at bounce
 
