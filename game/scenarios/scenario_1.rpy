@@ -83,11 +83,11 @@ label scenario_1:
 
         show mc_base_expression at bounce, right
 
-        mc "It’s not about avoiding challenges!! Can you just leave my room!?"
+        mc "It’s not about avoiding responsibility!! Can you just leave my room!?"
 
         hide parent_1_base_expression
 
-        "… after a few minutes you decide to go and grudgingly go to tell your parent who is in the living room …"
+        "… after a few minutes you decide to go to school and grudgingly tell your parent who is in the living room …"
 
         scene living_room_front # change to living room
 

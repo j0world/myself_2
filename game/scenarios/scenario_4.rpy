@@ -52,7 +52,6 @@ label scenario_4:
             hide mc_placeholder
             hide parent_1_base_expression
 
-            "You get up, walk to your parents’ room, and ask if they can record the episode."
             "They appreciate that you're thinking ahead and agree. You go to bed feeling relieved, knowing you won’t miss out and will still get enough rest."
 
             return

@@ -9,7 +9,7 @@ label scenario_3:
     #show eileen happy
     # These display lines of dialogue.
 
-    "After a long day and with art class now over, the school day comes to an end. Your friends A and B come strolling over."
+    "After a long day and with art class now over, the school day comes to an end. Your friends Charlie and Kim come strolling over."
 
     show alpha_base_expression at left
 
@@ -170,6 +170,8 @@ label scenario_3:
 
             alpha "Don’t you worry [bravo], I can defeat the both of you by my lonesome!"
 
+            "After a long fought battle, you remained on top and won the game."
+
             jump scenario_4
 
 
@@ -188,6 +190,9 @@ label scenario_3:
             show bravo_base_expression at bounce, right
 
             bravo "All good, just make sure that [alpha] doesn’t cheat, okay?"
+
+            "After a good match under your watchful eye,[alpha] came out victorious."
+            "He would not stop bragging until you parted ways again."
 
             jump scenario_4
 
